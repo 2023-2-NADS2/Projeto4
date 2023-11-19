@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Rafael Pinto da Silva</a>, <a href="https://www.linkedin.com/in/victorbarq/">Pedro Henrique Corte Viana</a>, <a href="https://www.linkedin.com/in/victorbarq/">Mateus Macedo Batista De Souza</a>, <a href="https://www.linkedin.com/in/victorbarq/">Joao Victor Domingues De Araujo Sousa</a>, <a href="https://www.linkedin.com/in/victorbarq/">Gabriel Italo Da Silva Lima</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Prof. Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/"> Prof. Eduardo Savino</a>, Prof. Adriano Felix Valente </a>, <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-buesso-jr-15462234"> Prof. José Carlos Buesso Jr</a>, <a href="https://br.linkedin.com/in/aimarlopes/pt"> Prof. Aimar Martins Lopes</a>, <a href="https://br.linkedin.com/in/francisco-escobar?trk=people-guest_people_search-card"> Francisco Escobar</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Prof. Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/"> Prof. Eduardo Savino</a>, Prof. Adriano Felix Valente </a>, <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-buesso-jr-15462234"> Prof. José Carlos Buesso Jr</a>, <a href="https://br.linkedin.com/in/aimarlopes/pt"> Prof. Aimar Martins Lopes</a>, <a href="https://br.linkedin.com/in/francisco-escobar?trk=people-guest_people_search-card"> Prof. Francisco Escobar</a>
 
 ## Descrição
 
