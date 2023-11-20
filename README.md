@@ -85,8 +85,8 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://www.udemy.com/course/curso-desenvolvedor-web-completo/>
+2. <https://milanwittpohl.com/projects/tutorials/Full-Stack-Web-App/the-backend-with-java-and-spring>
+3. <https://www.youtube.com/watch?v=5OdVJbNCSso>
+4. <https://www.w3schools.com/java/default.asp>
+5. <https://nodejs.org/en/docs/guides>
