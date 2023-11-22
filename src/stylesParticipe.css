@@ -1,74 +1,88 @@
-*{font-family: 'Roboto', sans-serif;}
-body{background-color: #000000;
+/* Add your existing styles here */
+
+/* Common Styles for All Screen Sizes */
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-/* Navbar */
-.navbar{
+    margin: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
     border-radius: 5px;
-    margin: 0px;
-}
-.navbar-brand,
-.navbar-nav .nav-link{
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
     color: #000000;
     transition: color 0.3s;
-}
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus{
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
     color: #ffffff;
     background-color: transparent;
-}
-.navbar-toggler{border: #fff;}
-.navbar-toggler-icon{background-color: #EAA800;}
-
-.btn{
+  }
+  
+  .navbar-toggler {
+    border: #fff;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #EAA800;
+  }
+  
+  .btn {
     background-color: #333;
     border: none;
     color: #fff;
     transition: background-color 0.2s, color 0.3s;
-}
-.btn:hover,
-.btnc:focus{
+  }
+  
+  .btn:hover,
+  .btnc:focus {
     background-color: #555;
     color: #fff;
-}
-.btn-outline-success{
+  }
+  
+  .btn-outline-success {
     color: #333;
     border-color: #333;
     background-color: transparent;
-}
-/* fim navbar */
-
-
-section {
+  }
+  
+  /* Section */
+  section {
     background-color: #000;
     border-radius: 5px;
     padding: 20px;
-    margin: 50px auto; /* centraliza horizontalmente */
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1000px;
-}
-
-
-section form {
+  }
+  
+  section form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* centraliza os elementos internos horizontalmente */
+    align-items: center;
     width: 100%;
-}
-
-form label {
+  }
+  
+  form label {
     color: #fff;
     text-align: left;
     font-size: 17px;
     margin-bottom: 4px;
-}
-
-form input {
+  }
+  
+  form input {
     width: 60%;
     padding: 10px;
     outline: none;
@@ -76,12 +90,13 @@ form input {
     margin-bottom: 20px;
     font-size: 15px;
     transition: all 0.5s;
-}
-
-form input:focus{border-radius: 16px;} 
-
-
-form button {
+  }
+  
+  form input:focus {
+    border-radius: 16px;
+  }
+  
+  form button {
     padding: 15px;
     width: 60%;
     cursor: pointer;
@@ -91,124 +106,135 @@ form button {
     color: #fff;
     transition: all 1s;
     margin-bottom: 20px;
-}
-
-form button:hover {
+  }
+  
+  form button:hover {
     background: #fff;
     color: #000;
     border-radius: 16px;
-}
-
-
-h1 {
+  }
+  
+  h1 {
     font-size: 50px;
-    /* Tamanho da fonte do título */
     color: #ffffff;
-    /* Cor do texto do título */
     margin-bottom: 10px;
-    /* Espaço abaixo do título */
     text-align: center;
-}
-
-p {
+  }
+  
+  p {
     font-size: 14px;
-    /* Tamanho da fonte do parágrafo */
     color: #9c9c9c;
-    /* Cor do texto do parágrafo */
     margin-bottom: 20px;
-    /* Espaço abaixo do parágrafo */
-    margin: 50px auto 0;
     text-align: center;
-}
-
-
-
-
-
-.container {
-    max-width: 1920px;
-}
-
-footer{grid-area: footer;}
-
-footer{
+  }
+  
+  /* Container */
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  /* Footer */
+  footer {
     background-color: #3F00C3;
     border-radius: 5px;
     padding: 5px;
     color: white;
     text-align: center;
-    margin: 0px;
-}
-
-.footer-container{
+    margin-top: auto;
+  }
+  
+  .footer-container {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-}
-.footer-section{
+  }
+  
+  .footer-section {
     flex: 1;
     padding: 5px;
     max-width: 300px;
     text-align: center;
-}
-.footer-section ul{list-style: none; text-align: center;}
-.footer-section ul li a{color: #2d2d2d; text-decoration: none; text-align: center;}
-.footer-section ul li a:hover{color: #2d2d2d; text-decoration: underline; text-align: center;}
-.footer-bottom{text-align: center;}
-.p-footer{
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .footer-section ul li a {
+    color: #2d2d2d;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .p-footer {
     color: #fff;
     text-align: center;
     margin: auto;
-}
-
-.author-email{font-size: 16px; color: #ffffff; text-decoration: none;}
-.author-email:hover{color: #ffffff; text-decoration: underline;}
-
-/* Adicione essas regras para telas menores */
-@media (max-width: 768px) {
+  }
+  
+  .author-email {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .author-email:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
     body {
-        padding-top: 56px;
-        /* Ajuste conforme necessário para a altura da barra de navegação */
+      padding-top: 56px;
     }
-
+  
     .navbar-toggler-icon {
-        background-color: #ffffff;
-        /* Mude a cor do ícone do botão de navegação para branco em telas menores */
+      background-color: #ffffff;
     }
-
+  
     .navbar-nav {
-        flex-direction: column;
-        text-align: center;
+      flex-direction: column;
+      text-align: center;
     }
-
+  
     .navbar-nav .nav-link {
-        padding: 0.5rem;
+      padding: 0.5rem;
     }
-
+  
     .btn,
     .btn-outline-success {
-        width: 100%;
-        /* Faça os botões ocuparem toda a largura */
+      width: 100%;
     }
-
+  
     form {
-        padding: 10px;
+      padding: 10px;
     }
-
+  
     h1 {
-        font-size: 30px;
-        /* Reduza o tamanho do título em telas menores */
+      font-size: 30px;
     }
-
+  
     p {
-        font-size: 12px;
-        /* Reduza o tamanho do parágrafo em telas menores */
+      font-size: 12px;
     }
-}
-
-/* Adicione essa regra para telas muito pequenas, como smartphones em modo retrato */
-@media (max-width: 576px) {
+  }
+  
+  @media (max-width: 576px) {
     .navbar-toggler {
-        margin: 0;
+      margin: 0;
     }
-}
+  }
+  
